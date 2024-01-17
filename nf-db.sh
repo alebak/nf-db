@@ -40,7 +40,7 @@ grant_privileges() {
 }
 
 if [ $# -ne $EXPECTED_ARGS ]; then
-    echo "Usage: $0 db_name db_user db_pass"
+    echo "Usage: nf-db database_name database_user database_password"
     exit 1
 fi
 
