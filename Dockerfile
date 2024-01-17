@@ -8,4 +8,4 @@ WORKDIR /usr/local/bin
 
 COPY --chmod=0755 nf-db.sh ./nf-db
 
-ENTRYPOINT ["mysql"]
+CMD ["/bin/bash"]
