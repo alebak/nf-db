@@ -1,7 +1,7 @@
 FROM alpine:3.14
 
-RUN apk update && apk upgrade --no-cache
+RUN apk update
 
-RUN apk add --no-cache mysql-client
+RUN apk add --no-cache --upgrade bash mysql-client
 
 ENTRYPOINT ["mysql"]
