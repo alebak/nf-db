@@ -3,7 +3,7 @@
 MYSQL=$(which mysql)
 EXPECTED_ARGS=3
 
-# Variables de entorno
+# Environment variables
 DB_HOST="$NF_DATABASE_HOST"
 DB_PORT="$NF_DATABASE_PORT"
 DB_ADMIN_USERNAME="$NF_DATABASE_ADMIN_USERNAME"
